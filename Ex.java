@@ -13,6 +13,7 @@ public class sorttest extends Ex{
   int[] sorted = sort(unsorted);
   }
 
+	//this is for insertion sort 
 public static int[] InsertionSort(int[] arr){
 	for(int i = 1; i < arr.length; i++) {
 		int k = arr[i];
@@ -25,7 +26,7 @@ public static int[] InsertionSort(int[] arr){
 		}
 	return arr;
 	}
-
+//this is for reverse
 public static int[] reverse(int[] arr) { 
 	int j = arr.length-1; 
 	int x = arr.length/2; 

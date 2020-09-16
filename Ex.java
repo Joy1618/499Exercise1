@@ -12,4 +12,10 @@ public class sorttest extends Ex{
 //sorted array
   int[] sorted = sort(unsorted);
   }
+
+public static void main(String[] args) {	
+	int[] unsorted = new int[] {2,1,4,3};
+	int[] sorted = sort(unsorted);
+	System.out.println(Arrays.toString(sorted));
+	}
 }

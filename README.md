@@ -2,9 +2,9 @@
 The individual Git Assignment
 
 This assignment was done to get familiar with Git version control and learn how to:
-> Create repositories
-> Merge, Pull, Push requests
-> Committing code and creating a readme, etc.
+* Create repositories
+* Merge, Pull, Push requests
+* Committing code and creating a readme, etc.
 
 THE CODE:
 The code basically deals with sorting of arrays, an array is taken and sorted via default means.

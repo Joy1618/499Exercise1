@@ -10,7 +10,7 @@ public class test extends Ex{
 			int[] sorted = sort(unsorted);
 	    //descending sorted array
 	    int[] DescSorted = new int[]{4,3,2,1};
-	  
+	  // This is test for Insertion Sort
 	  @Test
 	    public void InsertionSortTest() {
 	        int[] t = InsertionSort(unsorted);

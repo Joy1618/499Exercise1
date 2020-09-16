@@ -13,7 +13,7 @@ public class sorttest extends Ex{
   int[] sorted = sort(unsorted);
   }
 
-public int[] InsertionSort(int[] arr){
+public static int[] InsertionSort(int[] arr){
 	for(int i = 1; i < arr.length; i++) {
 		int k = arr[i];
 		int pos = i;
@@ -26,11 +26,24 @@ public int[] InsertionSort(int[] arr){
 	return arr;
 	}
 
+public static int[] reverse(int[] arr) { 
+	int j = arr.length-1; 
+	int x = arr.length/2; 
+	for (int i = 0; i < x; i++) { 
+		int temp = arr[i]; 
+		arr[i] = arr[j - i]; 
+		arr[j - i] = temp; 
+		}
+	return arr;
+	}
+
 public static void main(String[] args) {	
 	int[] unsorted = new int[] {2,1,4,3};
 	int[] sorted = sort(unsorted);
 	int[] sorted2 = InsertionSort(unsorted);
 	System.out.println(Arrays.toString(sorted));
 	System.out.println(Arrays.toString(sorted2));
+	int[] descending = reverse(sorted);
+	System.out.println(Arrays.toString(descending));
 	}
 }
